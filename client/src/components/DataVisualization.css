@@ -1,0 +1,61 @@
+.data-visualization-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+ 
+  .data-visualization-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+ 
+  .filters-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .filters-container label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .filters-container input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .filters-container button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .filters-container button:hover {
+    background-color: #0056b3;
+  }
+  
+ 
+  .chart-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .chart {
+    flex: 1 1 300px;
+  }
+  
+  .chart-title {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+  
